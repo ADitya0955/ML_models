@@ -16,14 +16,14 @@ We will be creating a model to predict if a transaction is fraudulent or not. In
 Methodology:
 
 The approach followed is segmented into the subsequent phases: 
-1.Initial dataset input
-2.Exploratory Data Analysis
+1.Initial dataset input <br />
+2.Exploratory Data Analysis <br />
 3.Feature Engineering i.e. transforming the categorical attributes of dataset
 
-4.Scaling the dataset
-5.Splitting the dataset into training and test datasets
-6.Using SMOTE Data sampling for achieving data consistency
-7.Training of classification model
+4.Scaling the dataset <br />
+5.Splitting the dataset into training and test datasets <br />
+6.Using SMOTE Data sampling for achieving data consistency <br />
+7.Training of classification model <br />
 8.Prediction of fraudulent transactions.
 
 Data Sampling:
@@ -52,17 +52,21 @@ This inherent randomness introduces diversity among individual trees, tackling t
 
 Random Forests are extensively utilized for classification and regression tasks due to their capability to handle intricate datasets, alleviate overfitting, and deliver dependable forecasts across different scenarios.
 
-Model Prediction Metrics and Visualization:
-1.Confusion Matrix:A confusion matrix provides valuable insights into the accuracy of our predictions and their alignment with the actual values.
+Model Prediction Metrics and Visualization: <br />
 
-2.Precision-Recall Curve:
+Confusion Matrix:<br />
+A confusion matrix provides valuable insights into the accuracy of our predictions and their alignment with the actual values.
+
+Precision-Recall Curve:<br />
 As implied by its name, this curve directly illustrates precision (on the y-axis) against recall (on the x-axis).
 This is especially valuable in scenarios which are highly imbalanced, where the number of negatives are significantly greater than the positives (such as when the number of fraudulent transactions are  far less than legitimate transactions).
 In such cases, our primary focus is on accurately identifying potential fraud transactions.
 
-Precision:It represents the ratio of True Positives to all Positive predictions. In our context, it signifies the proportion of transactions correctly identified as fraudulent  out of all transactions.
+Precision:<br />
+It represents the ratio of True Positives to all Positive predictions. In our context, it signifies the proportion of transactions correctly identified as fraudulent  out of all transactions.
 
-Recall:It measures our model's ability to correctly identify True Positives. Therefore, concerning fraud transactions, recall indicates how many we accurately identified out of all those the true fraud transactions .
+Recall:<br />
+It measures our model's ability to correctly identify True Positives. Therefore, concerning fraud transactions, recall indicates how many we accurately identified out of all those the true fraud transactions .
 
 
 
