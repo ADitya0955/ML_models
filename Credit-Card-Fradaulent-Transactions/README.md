@@ -15,7 +15,7 @@ We will be creating a model to predict if a transaction is fraudulent or not. In
 
 Methodology:
 
-The approach followed is segmented into the subsequent phases: 
+The approach followed is segmented into the subsequent phases: <br>
 1.Initial dataset input <br />
 2.Exploratory Data Analysis <br />
 3.Feature Engineering i.e. transforming the categorical attributes of dataset
@@ -67,6 +67,23 @@ It represents the ratio of True Positives to all Positive predictions. In our co
 
 Recall:<br />
 It measures our model's ability to correctly identify True Positives. Therefore, concerning fraud transactions, recall indicates how many we accurately identified out of all those the true fraud transactions .
+
+Model Deployment using Sagemaker: <br>
+
+In the constantly changing landscape of machine learning (ML), the efficient training and deployment of models are essential for translating innovative concepts into practical applications. Amazon SageMaker emerges as a standout solution in this regard, offering a fully managed service that empowers developers and data scientists to swiftly construct, train, and deploy ML models.
+
+
+SageMaker arrives with pre-installed algorithms and accommodates multiple ML frameworks, showcasing notable flexibility by allowing the utilization of conventional libraries and frameworks. Among these, it supports the widely acclaimed Scikit-Learn library, recognized for its simplicity and proficiency in managing diverse machine learning tasks.
+
+Deployment Plan:<br>
+1.Set Up the Environment in AWS Sagemaker <br>
+2.Write the model training script <br>
+3.Training the model <br>
+4.Hyperparameter tuning <br>
+5.Deploying the model by creting an endpoint <br>
+6.Testing the deployed model<br>
+
+
 
 
 
